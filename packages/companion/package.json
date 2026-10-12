@@ -1,0 +1,28 @@
+{
+  "name": "@away/companion",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "bin": {
+    "away": "./src/cli.ts"
+  },
+  "scripts": {
+    "typecheck": "tsc -p tsconfig.json",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@away/adapter-claude": "workspace:*",
+    "@away/adapter-codex": "workspace:*",
+    "@away/adapter-core": "workspace:*",
+    "@away/adapter-pi": "workspace:*",
+    "@away/protocol": "workspace:*",
+    "@away/secure-channel": "workspace:*"
+  },
+  "devDependencies": {
+    "@away/relay": "workspace:*",
+    "@away/client": "workspace:*"
+  }
+}

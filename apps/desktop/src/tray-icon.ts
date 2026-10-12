@@ -1,0 +1,3 @@
+// Generated 16px and 32px tray icons (black on transparent; macOS tints template images).
+export const TRAY_ICON_1X = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAPklEQVR4nGNgoBH4jwOTrZEogwgpImgIsc7Eqo4Uf2JVi00zPicPZwPIDkRcrsBnAF6TyUpI2BRRPU9QHwAAz01jnY/TNgcAAAAASUVORK5CYII=";
+export const TRAY_ICON_2X = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAfklEQVR4nO2UwQ3AIAwD2X9p2ABic1EQiiWePV9p0jE6WmbwlBXjIm4xIkKVWxIuDJEg3uKKQX1Hi0NPs8zLWKUwM/OHEmIT044KqOXqcy3QAu8LlK/hDqgmzM6QkJjq1TrlRx4lYXOcCccZ1Kpd3eIJph4rpeWECJ6y4n+zAN2OjoAO4P12AAAAAElFTkSuQmCC";

@@ -1,0 +1,12 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "noEmit": true,
+    // Workspace packages ship TypeScript sources with explicit .ts imports.
+    "allowImportingTsExtensions": true,
+    // Buffer is provided at runtime by src/polyfills.ts.
+    "types": ["node"]
+  },
+  "include": ["**/*.ts", "**/*.tsx", ".expo/types/**/*.ts", "expo-env.d.ts"]
+}

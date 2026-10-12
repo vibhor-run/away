@@ -1,0 +1,9 @@
+packages:
+  - "apps/*"
+  - "packages/*"
+allowBuilds:
+  electron: true
+  electron-winstaller: true
+
+# Electron Forge packaging needs real folders in node_modules, not pnpm symlinks.
+nodeLinker: hoisted

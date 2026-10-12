@@ -1,0 +1,17 @@
+{
+  "name": "@away/remote-cli",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "bin": {
+    "away-remote": "./src/cli.ts"
+  },
+  "scripts": {
+    "typecheck": "tsc -p tsconfig.json"
+  },
+  "dependencies": {
+    "@away/client": "workspace:*",
+    "@away/protocol": "workspace:*",
+    "@away/secure-channel": "workspace:*"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "@away/relay",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/relay.ts"
+  },
+  "scripts": {
+    "start": "node src/main.ts",
+    "typecheck": "tsc -p tsconfig.json",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@fastify/websocket": "11.3.4",
+    "fastify": "5.12.5",
+    "ws": "8.22.0",
+    "@away/protocol": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/ws": "8.18.2"
+  }
+}

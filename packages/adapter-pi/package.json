@@ -1,0 +1,19 @@
+{
+  "name": "@away/adapter-pi",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "typecheck": "tsc -p tsconfig.json",
+    "test": "vitest run",
+    "smoke": "node scripts/smoke.ts"
+  },
+  "dependencies": {
+    "@away/adapter-core": "workspace:*",
+    "@away/protocol": "workspace:*",
+    "zod": "4.6.5"
+  }
+}
